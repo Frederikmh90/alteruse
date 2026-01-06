@@ -1,0 +1,1669 @@
+{
+  "file_dependencies": {},
+  "import_relationships": {
+    "project_cleanup_analysis.py": {
+      "imports": [
+        "os",
+        "re",
+        "json",
+        "pandas",
+        "pathlib.Path",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Tuple",
+        "typing.Optional",
+        "collections.defaultdict",
+        "collections.Counter",
+        "ast",
+        "logging"
+      ],
+      "import_count": 14
+    },
+    "browser_content_scraper_turbo.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urlparse",
+        "logging",
+        "sys",
+        "os",
+        "argparse",
+        "signal",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "threading",
+        "queue.Queue"
+      ],
+      "import_count": 25
+    },
+    "combined_url_resolution.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "robust_url_resolver.RobustURLResolver",
+        "sqlite3",
+        "os",
+        "logging",
+        "datetime.datetime",
+        "typing.List",
+        "typing.Dict",
+        "typing.Set",
+        "typing.Tuple",
+        "hashlib",
+        "urllib.parse.urlparse"
+      ],
+      "import_count": 13
+    },
+    "vm_url_resolver.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "time",
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "argparse"
+      ],
+      "import_count": 15
+    },
+    "test_setup.py": {
+      "imports": [
+        "sys",
+        "os",
+        "importlib",
+        "pathlib.Path",
+        "urllib.parse.urlparse"
+      ],
+      "import_count": 5
+    },
+    "actor_language_filtered_collection_v2.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "pandas",
+        "typing.Dict,",
+        "concurrent.futures.ThreadPoolExecutor,",
+        "tqdm.tqdm",
+        "spreadAnalysis.persistence.mongo.MongoSpread"
+      ],
+      "import_count": 8
+    },
+    "facebook_html_parser.py": {
+      "imports": [
+        "os",
+        "json",
+        "re",
+        "bs4.BeautifulSoup",
+        "datetime.datetime",
+        "urllib.parse.urlparse",
+        "urllib.parse.parse_qs",
+        "urllib.parse.unquote"
+      ],
+      "import_count": 8
+    },
+    "test_dependencies.py": {
+      "imports": [
+        "sys",
+        "importlib"
+      ],
+      "import_count": 2
+    },
+    "instant_language_check.py": {
+      "imports": [
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "time"
+      ],
+      "import_count": 3
+    },
+    "language_field_patch.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 15
+    },
+    "language_field_patch_rework.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "re",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "urllib.parse.urlparse",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 17
+    },
+    "language_field_patch_v2.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 15
+    },
+    "test_mongo_language_fields.py": {
+      "imports": [
+        "os",
+        "json",
+        "typing.Dict",
+        "typing.List",
+        "typing.Any",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread",
+        "traceback"
+      ],
+      "import_count": 9
+    },
+    "percentage_based_language_sampler.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "logging",
+        "datetime",
+        "pandas",
+        "typing.Dict",
+        "typing.List",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.Optional",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "tqdm.tqdm",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "pymongo.MongoClient"
+      ],
+      "import_count": 16
+    },
+    "browser_content_scraper.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urlparse",
+        "logging",
+        "sys",
+        "os",
+        "argparse",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed"
+      ],
+      "import_count": 22
+    },
+    "find_actor_language_metadata.py": {
+      "imports": [
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "json",
+        "datetime"
+      ],
+      "import_count": 4
+    },
+    "truly_optimized_language_collection.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Tuple",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 14
+    },
+    "instagram_test_simple.py": {
+      "imports": [
+        "sys",
+        "time",
+        "logging",
+        "pymongo.MongoClient",
+        "pymongo.errors.ServerSelectionTimeoutError",
+        "pymongo.errors.NetworkTimeout"
+      ],
+      "import_count": 6
+    },
+    "technocracy_datacollection_080825_with_language_filter.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "typing.Iterable",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 16
+    },
+    "browser_content_scraper_v2.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urlparse",
+        "logging",
+        "sys",
+        "os",
+        "argparse",
+        "signal",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "urllib.parse.urlparse",
+        "urllib.parse.parse_qs",
+        "urllib.parse.urlencode",
+        "urllib.parse.urlunparse"
+      ],
+      "import_count": 27
+    },
+    "enhanced_url_resolver.py": {
+      "imports": [
+        "requests",
+        "pandas",
+        "time",
+        "logging",
+        "urllib.parse.urlparse",
+        "urllib.parse.urljoin",
+        "typing.Dict",
+        "typing.List",
+        "typing.Optional",
+        "typing.Tuple",
+        "sys",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "hashlib",
+        "sqlite3",
+        "os",
+        "datetime.datetime",
+        "re",
+        "bs4.BeautifulSoup",
+        "requests.adapters.HTTPAdapter"
+      ],
+      "import_count": 20
+    },
+    "combined_url_resolution_enhanced.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "robust_url_resolver.RobustURLResolver",
+        "sqlite3",
+        "os",
+        "logging",
+        "datetime.datetime",
+        "typing.List",
+        "typing.Dict",
+        "typing.Set",
+        "typing.Tuple",
+        "hashlib",
+        "urllib.parse.urlparse",
+        "time",
+        "json",
+        "argparse"
+      ],
+      "import_count": 16
+    },
+    "enhanced_content_scraper.py": {
+      "imports": [
+        "requests",
+        "pandas",
+        "time",
+        "logging",
+        "os",
+        "hashlib",
+        "sqlite3",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Optional",
+        "typing.Set",
+        "typing.Tuple",
+        "urllib.parse.urlparse",
+        "urllib.parse.urljoin",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "trafilatura",
+        "trafilatura.settings.use_config",
+        "justext",
+        "bs4.BeautifulSoup",
+        "re"
+      ],
+      "import_count": 22
+    },
+    "parallel_url_resolution_pipeline_resume_181.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "time",
+        "glob",
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "argparse"
+      ],
+      "import_count": 16
+    },
+    "parallel_url_resolution_pipeline.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "time",
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "argparse"
+      ],
+      "import_count": 15
+    },
+    "final_integration_pipeline.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "os",
+        "logging",
+        "datetime.datetime",
+        "typing.List",
+        "typing.Dict",
+        "typing.Tuple",
+        "sqlite3",
+        "enhanced_content_scraper.EnhancedContentScraper",
+        "urllib.parse.urlparse",
+        "time"
+      ],
+      "import_count": 12
+    },
+    "ultra_minimal_language_test.py": {
+      "imports": [
+        "random",
+        "time",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread"
+      ],
+      "import_count": 4
+    },
+    "facebook_batch_analysis_with_html.py": {
+      "imports": [
+        "os",
+        "json",
+        "csv",
+        "re",
+        "datetime.datetime",
+        "collections.defaultdict",
+        "bs4.BeautifulSoup",
+        "urllib.parse.unquote",
+        "facebook_html_parser.parse_recently_viewed_html",
+        "facebook_html_parser.parse_facebook_timestamp",
+        "facebook_html_parser.extract_urls_from_facebook_links",
+        "urllib.parse.urlparse",
+        "re",
+        "urllib.parse.parse_qs",
+        "urllib.parse.urlparse"
+      ],
+      "import_count": 15
+    },
+    "test_enhanced_facebook_analysis.py": {
+      "imports": [
+        "os",
+        "facebook_batch_analysis_with_html.process_facebook_folder",
+        "facebook_batch_analysis_with_html.extract_urls_from_entries"
+      ],
+      "import_count": 3
+    },
+    "monitor_resolution_progress.py": {
+      "imports": [
+        "sqlite3",
+        "time",
+        "os",
+        "datetime.datetime"
+      ],
+      "import_count": 4
+    },
+    "find_actor_language_metadata_with_logging.py": {
+      "imports": [
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "json",
+        "datetime"
+      ],
+      "import_count": 4
+    },
+    "unified_rescraping_pipeline.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "sys",
+        "os",
+        "robust_url_resolver.RobustURLResolver",
+        "argparse"
+      ],
+      "import_count": 22
+    },
+    "fixed_language_collection.py": {
+      "imports": [
+        "random",
+        "typing.List",
+        "typing.Any",
+        "typing.Set",
+        "tqdm.auto.tqdm",
+        "os",
+        "time",
+        "pandas",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed"
+      ],
+      "import_count": 10
+    },
+    "technocracy_datacollection_080825.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "typing.Iterable",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 16
+    },
+    "all_platforms_fixed_fast.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "logging",
+        "datetime",
+        "collections.defaultdict",
+        "collections.Counter",
+        "pandas",
+        "tqdm.tqdm",
+        "spreadAnalysis.persistence.mongo.MongoSpread"
+      ],
+      "import_count": 10
+    },
+    "enhanced_mongo_sampler_with_checkpoints.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "json",
+        "pickle",
+        "pathlib.Path",
+        "typing.Iterable",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 19
+    },
+    "test_actor_language_approach.py": {
+      "imports": [
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "pymongo.MongoClient"
+      ],
+      "import_count": 2
+    },
+    "simple_language_test.py": {
+      "imports": [
+        "os",
+        "time",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread"
+      ],
+      "import_count": 4
+    },
+    "test_url_resolver.py": {
+      "imports": [
+        "requests",
+        "pandas",
+        "time",
+        "urllib.parse.urlparse",
+        "sys"
+      ],
+      "import_count": 5
+    },
+    "parallel_url_resolution_pipeline_resume.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "time",
+        "glob",
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "argparse"
+      ],
+      "import_count": 16
+    },
+    "complete_url_resolution_pipeline.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "argparse"
+      ],
+      "import_count": 12
+    },
+    "single_actor_test.py": {
+      "imports": [
+        "logging",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "traceback",
+        "random",
+        "os",
+        "datetime"
+      ],
+      "import_count": 6
+    },
+    "language_field_patch_v5.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "re",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "urllib.parse.urlparse",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 17
+    },
+    "robust_url_resolver.py": {
+      "imports": [
+        "requests",
+        "pandas",
+        "time",
+        "logging",
+        "urllib.parse.urlparse",
+        "urllib.parse.urljoin",
+        "typing.Dict",
+        "typing.List",
+        "typing.Optional",
+        "typing.Tuple",
+        "sys",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "hashlib",
+        "sqlite3",
+        "os",
+        "datetime.datetime"
+      ],
+      "import_count": 17
+    },
+    "split_data_for_multiple_vms.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "math",
+        "argparse"
+      ],
+      "import_count": 12
+    },
+    "instagram_debug_minimal.py": {
+      "imports": [
+        "logging",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "traceback"
+      ],
+      "import_count": 3
+    },
+    "validate_html_facebook_data.py": {
+      "imports": [
+        "os",
+        "json",
+        "bs4.BeautifulSoup",
+        "datetime.datetime",
+        "re"
+      ],
+      "import_count": 5
+    },
+    "update_actor_script.py": {
+      "imports": [],
+      "import_count": 0
+    },
+    "parallel_url_resolution_pipeline_resume_fixed.py": {
+      "imports": [
+        "pandas",
+        "os",
+        "sys",
+        "logging",
+        "datetime.datetime",
+        "pathlib.Path",
+        "typing.List",
+        "typing.Dict",
+        "json",
+        "urllib.parse.urlparse",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "time",
+        "glob",
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "argparse"
+      ],
+      "import_count": 16
+    },
+    "analyze_news_detection.py": {
+      "imports": [
+        "json",
+        "os",
+        "pathlib.Path",
+        "pandas",
+        "datetime.datetime",
+        "re",
+        "urllib.parse.urlparse",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.Optional"
+      ],
+      "import_count": 12
+    },
+    "actor_language_filtered_collection_optimized.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "pandas",
+        "typing.Dict",
+        "typing.List",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.Optional",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "tqdm.tqdm",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "pymongo.MongoClient"
+      ],
+      "import_count": 14
+    },
+    "quick_actor_overview.py": {
+      "imports": [
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread"
+      ],
+      "import_count": 2
+    },
+    "debug_url_issue.py": {
+      "imports": [
+        "requests",
+        "bs4.BeautifulSoup",
+        "re"
+      ],
+      "import_count": 3
+    },
+    "checkpoint_manager.py": {
+      "imports": [
+        "os",
+        "json",
+        "argparse",
+        "pathlib.Path",
+        "typing.Dict",
+        "typing.Any",
+        "datetime"
+      ],
+      "import_count": 7
+    },
+    "test_url_fix.py": {
+      "imports": [
+        "enhanced_url_resolver.EnhancedURLResolver",
+        "requests",
+        "bs4.BeautifulSoup",
+        "re"
+      ],
+      "import_count": 4
+    },
+    "language_field_patch_v4.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "re",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Set",
+        "typing.Tuple",
+        "concurrent.futures.ThreadPoolExecutor",
+        "concurrent.futures.as_completed",
+        "urllib.parse.urlparse",
+        "pandas",
+        "tqdm.auto.tqdm",
+        "pymongo.MongoClient",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "spreadAnalysis.persistence.schemas.Spread"
+      ],
+      "import_count": 17
+    },
+    "instagram_efficient_sampler.py": {
+      "imports": [
+        "os",
+        "time",
+        "random",
+        "logging",
+        "datetime",
+        "spreadAnalysis.persistence.mongo.MongoSpread",
+        "traceback"
+      ],
+      "import_count": 7
+    },
+    "notebooks/test_unprocessed.py": {
+      "imports": [
+        "os",
+        "sys",
+        "analyze_unprocessed_files.create_unprocessed_files_report",
+        "traceback"
+      ],
+      "import_count": 4
+    },
+    "notebooks/debug_fb_timestamps.py": {
+      "imports": [
+        "json",
+        "os",
+        "datetime.datetime"
+      ],
+      "import_count": 3
+    },
+    "notebooks/data_source_analysis.py": {
+      "imports": [
+        "os",
+        "re",
+        "collections.defaultdict",
+        "datetime.datetime",
+        "pandas"
+      ],
+      "import_count": 5
+    },
+    "notebooks/safari_comprehensive_test.py": {
+      "imports": [
+        "sqlite3",
+        "polars",
+        "pandas",
+        "datetime.datetime",
+        "datetime.timezone",
+        "typing.Optional",
+        "typing.Tuple",
+        "typing.List",
+        "os",
+        "pathlib.Path"
+      ],
+      "import_count": 10
+    },
+    "notebooks/Processing_facebook_news_analysis.py": {
+      "imports": [
+        "json",
+        "os",
+        "pathlib.Path",
+        "pandas",
+        "datetime.datetime",
+        "re",
+        "urllib.parse.urlparse",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.Optional",
+        "traceback",
+        "traceback",
+        "traceback"
+      ],
+      "import_count": 15
+    },
+    "notebooks/safari_db_explorer.py": {
+      "imports": [
+        "sqlite3",
+        "pandas",
+        "polars",
+        "datetime.datetime",
+        "datetime.timezone",
+        "pathlib.Path",
+        "os",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Optional"
+      ],
+      "import_count": 11
+    },
+    "notebooks/test_data_extraction.py": {
+      "imports": [
+        "polars",
+        "sqlite3",
+        "os",
+        "numpy",
+        "struct"
+      ],
+      "import_count": 5
+    },
+    "notebooks/debug_facebook_folders.py": {
+      "imports": [
+        "os",
+        "pathlib.Path",
+        "pandas"
+      ],
+      "import_count": 3
+    },
+    "notebooks/unzip.py": {
+      "imports": [
+        "zipfile"
+      ],
+      "import_count": 1
+    },
+    "notebooks/Processing_facebook_batch_analysis.py": {
+      "imports": [
+        "os",
+        "pathlib.Path",
+        "pandas",
+        "Processing_facebook_news_analysis.analyze_facebook_directory",
+        "Processing_facebook_news_analysis.save_analysis",
+        "datetime.datetime",
+        "datetime.timezone",
+        "re",
+        "json",
+        "random",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.List",
+        "typing.Optional",
+        "bs4.BeautifulSoup",
+        "bs4.BeautifulSoup",
+        "re"
+      ],
+      "import_count": 18
+    },
+    "notebooks/Processing_browser.py": {
+      "imports": [
+        "os",
+        "json",
+        "polars",
+        "pandas",
+        "pathlib.Path",
+        "datetime.datetime",
+        "datetime.timezone",
+        "datetime.timedelta",
+        "sqlite3",
+        "typing.Dict",
+        "typing.List",
+        "typing.Tuple",
+        "typing.Optional",
+        "re",
+        "urllib.parse.urlparse",
+        "test_news_source_analysis.alternative_news_sources",
+        "test_news_source_analysis.mainstream_news_sources",
+        "test_news_source_analysis.classify_news_source",
+        "test_news_source_analysis.extract_domain"
+      ],
+      "import_count": 19
+    },
+    "notebooks/quick_facebook_check.py": {
+      "imports": [
+        "json",
+        "pandas",
+        "datetime.datetime",
+        "datetime.timedelta",
+        "datetime.timezone",
+        "pathlib.Path",
+        "os"
+      ],
+      "import_count": 7
+    },
+    "notebooks/test_news_source_analysis.py": {
+      "imports": [
+        "polars",
+        "pandas",
+        "urllib.parse.urlparse",
+        "collections.Counter",
+        "re",
+        "datetime.datetime"
+      ],
+      "import_count": 6
+    },
+    "notebooks/test_data_exploration.py": {
+      "imports": [
+        "polars",
+        "pandas",
+        "datetime.datetime",
+        "datetime.timezone",
+        "typing.Optional",
+        "typing.Tuple"
+      ],
+      "import_count": 6
+    },
+    "notebooks/test_specific_fb.py": {
+      "imports": [
+        "notebooks.Processing_facebook_batch_analysis.analyze_account_activity"
+      ],
+      "import_count": 1
+    },
+    "notebooks/convert_parquet_to_csv.py": {
+      "imports": [
+        "polars",
+        "os"
+      ],
+      "import_count": 2
+    },
+    "notebooks/test_html_facebook_processing.py": {
+      "imports": [
+        "sys",
+        "os",
+        "notebooks.Processing_facebook_batch_analysis.find_facebook_folders",
+        "notebooks.Processing_facebook_batch_analysis.is_valid_facebook_folder",
+        "notebooks.Processing_facebook_batch_analysis.get_activity_period",
+        "notebooks.Processing_facebook_batch_analysis.extract_account_name",
+        "notebooks.Processing_facebook_batch_analysis.parse_html_facebook_data",
+        "notebooks.Processing_facebook_batch_analysis.analyze_account_activity",
+        "traceback"
+      ],
+      "import_count": 9
+    },
+    "notebooks/archive/Processing_facebook_batch_analysis copy.py": {
+      "imports": [
+        "os",
+        "pathlib.Path",
+        "pandas",
+        "Processing_facebook_news_analysis.analyze_facebook_directory",
+        "Processing_facebook_news_analysis.save_analysis",
+        "datetime.datetime",
+        "datetime.timezone",
+        "re",
+        "json",
+        "random",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.List",
+        "typing.Optional",
+        "bs4.BeautifulSoup",
+        "bs4.BeautifulSoup",
+        "re"
+      ],
+      "import_count": 18
+    },
+    "notebooks/archive/quick_chrome_check.py": {
+      "imports": [
+        "json",
+        "pandas",
+        "datetime.datetime",
+        "datetime.timedelta",
+        "pathlib.Path"
+      ],
+      "import_count": 5
+    },
+    "notebooks/archive/Processing_browser copy.py": {
+      "imports": [
+        "os",
+        "json",
+        "polars",
+        "pandas",
+        "pathlib.Path",
+        "datetime.datetime",
+        "datetime.timezone",
+        "datetime.timedelta",
+        "sqlite3",
+        "typing.Dict",
+        "typing.List",
+        "typing.Tuple",
+        "typing.Optional",
+        "re",
+        "urllib.parse.urlparse",
+        "test_news_source_analysis.alternative_news_sources",
+        "test_news_source_analysis.mainstream_news_sources",
+        "test_news_source_analysis.classify_news_source",
+        "test_news_source_analysis.extract_domain"
+      ],
+      "import_count": 19
+    },
+    "notebooks/archive/Processing_facebook_news_analysis copy.py": {
+      "imports": [
+        "json",
+        "os",
+        "pathlib.Path",
+        "pandas",
+        "datetime.datetime",
+        "re",
+        "urllib.parse.urlparse",
+        "typing.List",
+        "typing.Dict",
+        "typing.Any",
+        "typing.Tuple",
+        "typing.Optional",
+        "traceback",
+        "traceback",
+        "traceback"
+      ],
+      "import_count": 15
+    },
+    "notebooks/url_extraction/step4_scrape_content_enhanced.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "bs4.BeautifulSoup"
+      ],
+      "import_count": 19
+    },
+    "notebooks/url_extraction/step2_analyze_urls.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "urllib.parse.urlparse",
+        "requests",
+        "collections.Counter",
+        "time",
+        "json",
+        "typing.Dict",
+        "typing.List",
+        "typing.Tuple",
+        "typing.Set"
+      ],
+      "import_count": 12
+    },
+    "notebooks/url_extraction/step3_prioritize_domains.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "json",
+        "typing.Dict",
+        "typing.List",
+        "typing.Tuple",
+        "time"
+      ],
+      "import_count": 8
+    },
+    "notebooks/url_extraction/step4_scrape_content.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "bs4.BeautifulSoup"
+      ],
+      "import_count": 19
+    },
+    "notebooks/url_extraction/step4_scrape_content_with_resolution.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "sys",
+        "os",
+        "robust_url_resolver.RobustURLResolver",
+        "argparse"
+      ],
+      "import_count": 22
+    },
+    "notebooks/url_extraction/step1_extract_urls_optimized.py": {
+      "imports": [
+        "os",
+        "json",
+        "sqlite3",
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "datetime.datetime",
+        "datetime.timezone",
+        "datetime.timedelta",
+        "urllib.parse.urlparse",
+        "urllib.parse.unquote",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "time",
+        "gc",
+        "traceback",
+        "sys"
+      ],
+      "import_count": 19
+    },
+    "notebooks/url_extraction/archive/test_bulk_processing.py": {
+      "imports": [
+        "os",
+        "json",
+        "sqlite3",
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "datetime.datetime",
+        "datetime.timezone",
+        "datetime.timedelta",
+        "urllib.parse.urlparse",
+        "urllib.parse.unquote",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "time",
+        "traceback",
+        "sys"
+      ],
+      "import_count": 18
+    },
+    "notebooks/url_extraction/archive/test_json_processing.py": {
+      "imports": [
+        "json",
+        "pandas",
+        "pathlib.Path"
+      ],
+      "import_count": 3
+    },
+    "notebooks/url_extraction/archive/step1_extract_urls_standalone.py": {
+      "imports": [
+        "os",
+        "json",
+        "sqlite3",
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "datetime.datetime",
+        "datetime.timezone",
+        "datetime.timedelta",
+        "urllib.parse.urlparse",
+        "urllib.parse.unquote",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "time"
+      ],
+      "import_count": 16
+    },
+    "notebooks/url_extraction/archive/validate_url_extraction.py": {
+      "imports": [
+        "pandas",
+        "sqlite3",
+        "json",
+        "os",
+        "pathlib.Path",
+        "datetime.datetime",
+        "urllib.parse.urlparse",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Tuple",
+        "re"
+      ],
+      "import_count": 12
+    },
+    "notebooks/url_extraction/archive/step1_extract_urls_fixed.py": {
+      "imports": [
+        "os",
+        "json",
+        "sqlite3",
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "datetime.datetime",
+        "datetime.timezone",
+        "datetime.timedelta",
+        "urllib.parse.urlparse",
+        "urllib.parse.unquote",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "time"
+      ],
+      "import_count": 16
+    },
+    "notebooks/url_extraction_facebook/step2_analyze_urls_facebook.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "urllib.parse.urlparse",
+        "requests",
+        "collections.Counter",
+        "time",
+        "json",
+        "typing.Dict",
+        "typing.List",
+        "typing.Tuple",
+        "typing.Set",
+        "logging",
+        "datetime.datetime"
+      ],
+      "import_count": 14
+    },
+    "notebooks/url_extraction_facebook/step3_prioritize_domains_facebook.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "json",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Tuple",
+        "logging"
+      ],
+      "import_count": 9
+    },
+    "notebooks/url_extraction_facebook/step4_scrape_content_facebook_with_resolution.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "sys",
+        "os",
+        "robust_url_resolver.RobustURLResolver",
+        "argparse"
+      ],
+      "import_count": 22
+    },
+    "notebooks/url_extraction_facebook/run_facebook_pipeline.py": {
+      "imports": [
+        "subprocess",
+        "sys",
+        "time",
+        "pathlib.Path",
+        "datetime.datetime"
+      ],
+      "import_count": 5
+    },
+    "notebooks/url_extraction_facebook/step4_scrape_content_facebook.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "bs4.BeautifulSoup"
+      ],
+      "import_count": 19
+    },
+    "notebooks/url_extraction_facebook/step1_extract_urls_facebook.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "json",
+        "re",
+        "time",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "urllib.parse.urlparse",
+        "logging",
+        "bs4.BeautifulSoup",
+        "os"
+      ],
+      "import_count": 16
+    },
+    "notebooks/url_extraction_facebook/step4_scrape_content_facebook_enhanced.py": {
+      "imports": [
+        "pandas",
+        "numpy",
+        "pathlib.Path",
+        "requests",
+        "trafilatura",
+        "time",
+        "json",
+        "hashlib",
+        "datetime.datetime",
+        "typing.Dict",
+        "typing.List",
+        "typing.Set",
+        "typing.Optional",
+        "typing.Tuple",
+        "re",
+        "urllib.parse.urljoin",
+        "urllib.parse.urlparse",
+        "logging",
+        "bs4.BeautifulSoup"
+      ],
+      "import_count": 19
+    }
+  },
+  "usage_patterns": {},
+  "redundant_files": [
+    {
+      "base_name": "combined_url_resolution.py",
+      "files": [
+        "combined_url_resolution.py",
+        "combined_url_resolution_enhanced.py"
+      ],
+      "count": 2
+    },
+    {
+      "base_name": "actor_language_filtered_collection.py",
+      "files": [
+        "actor_language_filtered_collection_v2.py",
+        "actor_language_filtered_collection_optimized.py"
+      ],
+      "count": 2
+    },
+    {
+      "base_name": "language_field_patch.py",
+      "files": [
+        "language_field_patch.py",
+        "language_field_patch_v2.py",
+        "language_field_patch_v5.py",
+        "language_field_patch_v4.py"
+      ],
+      "count": 4
+    },
+    {
+      "base_name": "browser_content_scraper.py",
+      "files": [
+        "browser_content_scraper.py",
+        "browser_content_scraper_v2.py"
+      ],
+      "count": 2
+    },
+    {
+      "base_name": "parallel_url_resolution_pipeline.py",
+      "files": [
+        "parallel_url_resolution_pipeline_resume_181.py",
+        "parallel_url_resolution_pipeline.py"
+      ],
+      "count": 2
+    },
+    {
+      "base_name": "parallel_url_resolution_pipeline_resume.py",
+      "files": [
+        "parallel_url_resolution_pipeline_resume.py",
+        "parallel_url_resolution_pipeline_resume_fixed.py"
+      ],
+      "count": 2
+    },
+    {
+      "base_name": "notebooks/url_extraction/step4_scrape_content.py",
+      "files": [
+        "notebooks/url_extraction/step4_scrape_content_enhanced.py",
+        "notebooks/url_extraction/step4_scrape_content.py"
+      ],
+      "count": 2
+    },
+    {
+      "base_name": "notebooks/url_extraction_facebook/step4_scrape_content_facebook.py",
+      "files": [
+        "notebooks/url_extraction_facebook/step4_scrape_content_facebook.py",
+        "notebooks/url_extraction_facebook/step4_scrape_content_facebook_enhanced.py"
+      ],
+      "count": 2
+    }
+  ],
+  "active_scripts": "{'notebooks/url_extraction/step3_prioritize_domains.py', 'unified_rescraping_pipeline.py', 'notebooks/Processing_facebook_news_analysis.analyze_facebook_directory.py', 'notebooks/Processing_facebook_news_analysis.py', 'notebooks/Processing_facebook_batch_analysis.py', 'complete_url_resolution_pipeline.py', 'notebooks/Processing_facebook_news_analysis.save_analysis.py', 'browser_content_scraper.py', 'notebooks/Processing_browser.py', 'notebooks/url_extraction/step1_extract_urls_optimized.py', 'combined_url_resolution_enhanced.py', 'notebooks/url_extraction/step4_scrape_content_with_resolution.py', 'notebooks/url_extraction/step4_scrape_content.py', 'notebooks/url_extraction/step2_analyze_urls.py', 'notebooks/url_extraction_facebook/step4_scrape_content_facebook_with_resolution.py'}",
+  "inactive_scripts": "{'language_field_patch_v5.py', 'notebooks/url_extraction_facebook/step1_extract_urls_facebook.py', 'language_field_patch_v4.py', 'facebook_batch_analysis_with_html.py', 'analyze_news_detection.py', 'quick_actor_overview.py', 'truly_optimized_language_collection.py', 'enhanced_url_resolver.py', 'notebooks/test_specific_fb.py', 'test_actor_language_approach.py', 'test_setup.py', 'parallel_url_resolution_pipeline_resume_181.py', 'notebooks/url_extraction/archive/validate_url_extraction.py', 'parallel_url_resolution_pipeline.py', 'notebooks/test_data_exploration.py', 'technocracy_datacollection_080825.py', 'all_platforms_fixed_fast.py', 'instant_language_check.py', 'notebooks/debug_fb_timestamps.py', 'notebooks/safari_comprehensive_test.py', 'notebooks/archive/Processing_facebook_batch_analysis copy.py', 'language_field_patch_rework.py', 'simple_language_test.py', 'notebooks/archive/quick_chrome_check.py', 'update_actor_script.py', 'notebooks/unzip.py', 'parallel_url_resolution_pipeline_resume_fixed.py', 'monitor_resolution_progress.py', 'instagram_test_simple.py', 'checkpoint_manager.py', 'technocracy_datacollection_080825_with_language_filter.py', 'test_mongo_language_fields.py', 'notebooks/url_extraction/archive/step1_extract_urls_fixed.py', 'percentage_based_language_sampler.py', 'notebooks/url_extraction/archive/step1_extract_urls_standalone.py', 'notebooks/test_news_source_analysis.py', 'language_field_patch_v2.py', 'actor_language_filtered_collection_optimized.py', 'notebooks/url_extraction/archive/test_json_processing.py', 'instagram_efficient_sampler.py', 'split_data_for_multiple_vms.py', 'notebooks/test_unprocessed.py', 'find_actor_language_metadata_with_logging.py', 'validate_html_facebook_data.py', 'notebooks/safari_db_explorer.py', 'instagram_debug_minimal.py', 'notebooks/convert_parquet_to_csv.py', 'find_actor_language_metadata.py', 'notebooks/quick_facebook_check.py', 'notebooks/archive/Processing_browser copy.py', 'test_url_fix.py', 'test_enhanced_facebook_analysis.py', 'vm_url_resolver.py', 'enhanced_mongo_sampler_with_checkpoints.py', 'notebooks/data_source_analysis.py', 'notebooks/url_extraction/step4_scrape_content_enhanced.py', 'combined_url_resolution.py', 'browser_content_scraper_v2.py', 'language_field_patch.py', 'notebooks/debug_facebook_folders.py', 'notebooks/url_extraction_facebook/step2_analyze_urls_facebook.py', 'ultra_minimal_language_test.py', 'project_cleanup_analysis.py', 'facebook_html_parser.py', 'final_integration_pipeline.py', 'notebooks/archive/Processing_facebook_news_analysis copy.py', 'notebooks/url_extraction_facebook/step4_scrape_content_facebook_enhanced.py', 'notebooks/url_extraction_facebook/run_facebook_pipeline.py', 'actor_language_filtered_collection_v2.py', 'browser_content_scraper_turbo.py', 'debug_url_issue.py', 'notebooks/test_html_facebook_processing.py', 'notebooks/url_extraction_facebook/step3_prioritize_domains_facebook.py', 'test_dependencies.py', 'robust_url_resolver.py', 'notebooks/test_data_extraction.py', 'notebooks/url_extraction/archive/test_bulk_processing.py', 'test_url_resolver.py', 'notebooks/url_extraction_facebook/step4_scrape_content_facebook.py', 'fixed_language_collection.py', 'enhanced_content_scraper.py', 'single_actor_test.py', 'parallel_url_resolution_pipeline_resume.py'}",
+  "decision_criteria": {
+    "keep_criteria": {
+      "known_active": "Files confirmed by user as actively used",
+      "imported_by_others": "Files that are imported by other scripts",
+      "referenced_in_shell": "Files referenced in shell scripts",
+      "core_functionality": "Files providing core project functionality",
+      "recent_modifications": "Files modified recently (last 30 days)"
+    },
+    "delete_criteria": {
+      "older_versions": "Older versions of files with newer versions available",
+      "unused_copies": "Copy files that are not referenced",
+      "test_files": "Test files that are not part of main functionality",
+      "debug_files": "Debug/temporary files",
+      "duplicate_functionality": "Files with duplicate functionality"
+    },
+    "review_criteria": {
+      "unclear_dependencies": "Files with unclear dependency relationships",
+      "potential_utility": "Files that might be useful but not clearly used",
+      "vm_integration": "Files related to VM-based processing"
+    }
+  }
+}
